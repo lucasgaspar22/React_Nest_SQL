@@ -44,7 +44,7 @@ export class UsersService {
             return await this.userRepository.save(newUser); 
         }
         catch (err) {
-            return err;
+            return undefined;
         }
     }
 
