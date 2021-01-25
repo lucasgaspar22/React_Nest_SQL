@@ -1,0 +1,25 @@
+.my-wrapper {
+    width:60vw;
+    height:60vh;
+   
+    /*Centering*/
+    margin:auto;
+    position:absolute;
+    top:0;
+    bottom:0; 
+    left:0;
+    right:0;
+   
+    max-width:80%;
+    max-height:80%;
+    
+}
+   
+
+.img {
+    height: 500px;
+    background-image: url("./img/yin-yang-solid.svg");
+    background-size: 80% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

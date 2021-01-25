@@ -1,0 +1,31 @@
+.transparent {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-color: #ffff;
+    border-radius: 3px;
+    color: white !important;
+    margin:5%;
+}
+
+.btn-rest{
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border: none;
+    color: black !important;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white !important;
+    opacity: 1; /* Firefox */
+    font-weight: bold;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white !important;
+    font-weight: bold;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white !important;
+    font-weight: bold;
+}
